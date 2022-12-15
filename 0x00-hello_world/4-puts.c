@@ -3,6 +3,8 @@
  *
  * main - print a line of code using puts
  *
+ *Description: task answer
+ *
  * Return: 0
  *
  */
