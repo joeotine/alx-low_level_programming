@@ -6,13 +6,13 @@
  * Return: 0
 */
 int main(void)
-{	
+{
 	char a;
 	int b;
 	long int c;
 	long long int d;
 	float f;
-						
+
 	printf("Size of a char: %lu byte(S)\n", (unsigned long)sizeof(a));
 	printf("Size of an int: %lu byte(S)\n", (unsigned long)sizeof(ab));
 	printf("Size of a long int: %lu byte(S)\n", (unsigned long)sizeof(c));
