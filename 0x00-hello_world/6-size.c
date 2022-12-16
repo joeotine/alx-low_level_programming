@@ -2,7 +2,6 @@
 /**
  * main - print out sizes of data types in C
  * code by joe otine
- *
  * Return: 0
 */
 int main(void)
