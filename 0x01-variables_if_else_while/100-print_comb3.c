@@ -31,5 +31,5 @@ int main(void)
 		}
 		d++;
 	}
-	return 0;
+	return (0);
 }
