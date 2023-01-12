@@ -1,10 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
-
+void _puts(char *str);
+int _atoi(const char *s);
+void print_int(unsigned long int n);
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
