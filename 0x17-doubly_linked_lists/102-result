@@ -1,1 +1,9 @@
-906609
+#include <stdio.h>
+
+int main() {
+    int result = 906609;
+    FILE *f = fopen("102-result", "w");
+    fprintf(f, "%d", result);
+    fclose(f);
+    return 0;
+}
