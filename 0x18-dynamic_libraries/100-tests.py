@@ -1,7 +1,10 @@
 import random
 import ctypes
 
+# Load the shared library
 cops = ctypes.CDLL('./100-operations.so')
+
+# Call the C functions
 a = random.randint(-111, 111)
 b = random.randint(-111, 111)
 print("{} + {} = {}".format(a, b, cops.add(a, b)))
